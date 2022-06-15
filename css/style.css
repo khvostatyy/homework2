@@ -1,0 +1,58 @@
+:root {
+--main-bg-color: #fff;
+--primery-text-color: rgba(117, 117, 117, 1);
+--title-text-color: rgba(33, 33, 33, 1);
+--accent-color: #2196F3;
+--accent-white-color: rgba(255, 255, 255, 1);
+
+}
+
+body {
+    font-family: 'Roboto' sans-serif;
+    background-color: #fff;
+    color: var(--primery-text-color)
+}
+
+.list {
+    list-style: none;
+}
+/* Site-nav */
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover {
+    color: var(--accent-color);
+}
+
+.site-nav .link:focus {
+    color: #80c6ff;
+}
+/* Auth-nav */
+.auth-nav .link {
+    color: var(--title-text-color);
+}
+.auth-nav .link:hover {
+    color: var(--accent-color);
+}
+
+.auth-nav .link:focus {
+    color: #80c6ff;
+}
+
+/* Герой */
+
+.hero .section-title {
+    color: var(--accent-white-color)
+}
+
+.section-title .link {
+    color: var(--accent-white-color);
+}
+
+/* Список переваг */
+
+.section-title {
+color: var(--title-text-color);
+}
+
