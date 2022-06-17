@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./css/portfolio.css">
 </head>
 <body>
     <!-- Шапка -->
@@ -14,17 +14,17 @@
             <a href="/">
                 <img src="./images/WebStudio.svg" alt="Логотип компанії">
             </a>
-    
-    
-            <ul class="link-nav">
-                <li> <a href="./index.html">Студія</a></li>
-                <li> <a href="./portfolio.html">Портфоліо</a></li>
-                <li> <a href="">Контакти</a></li>
+
+
+            <ul class="site-nav list">
+                <li> <a href="./index.html" class="link">Студія</a></li>
+                <li> <a href="./portfolio.html" class="link">Портфоліо</a></li>
+                <li> <a href="" class="link">Контакти</a></li>
             </ul>
-    
-            <ul class="link">
-                <li> <a href="">info@devstudio.com</a></li>
-                <li class="adress-tell"> +380961111111 </li>
+
+            <ul class="auth-nav list">
+                <li> <a href="" class="link">info@devstudio.com</a></li>
+                <li class="tell"> +380961111111 </li>
             </ul>
         </nav>
     </header>
@@ -32,8 +32,8 @@
     <main>
 
         <!-- Навігація -->
-        <section>
-        <ul>
+        <section class="page-nav">
+        <ul class="section-button list">
             <li> <button type="button"> Все </button> </li>
             <li> <button type="button"> Веб-сайти </button> </li>
             <li> <button type="button"> Додатки </button> </li>
@@ -43,8 +43,8 @@
         </section>
 
          <!-- Список робіт -->
-        <section>
-            <ul>
+        <section class="page-img">
+            <ul class="section-img list">
                 <li> <img src="./images.portfolio/ТехнокрякJPG.jpg" alt="Ноутбук з картинками" width="370" height="294">
                     <h2>Технокряк</h2>
                     <p>
@@ -105,10 +105,10 @@
         <!-- Футер -->
         <footer>
             <img src="/images/WebStudioW.svg" alt="Логотип компанії" width="145" height="31">
-            <address>
+            <address class="address">
                 м. Київ, пр-т Лесі Українки, 26<br>
-                info@example.com<br>
-                +38 099 111 11 11
+                <span>info@example.com<br>
+                    +38 099 111 11 11</span>
             </address>
         </footer>
 
